@@ -1,0 +1,8 @@
+F:\Develop\AndroidApp\WebApp\bin\WebApp.dll
+F:\Develop\AndroidApp\WebApp\bin\WebApp.pdb
+F:\Develop\AndroidApp\WebApp\bin\Common.dll
+F:\Develop\AndroidApp\WebApp\bin\Common.pdb
+F:\Develop\AndroidApp\WebApp\bin\EntityFramework.xml
+F:\Develop\AndroidApp\WebApp\obj\Debug\WebApp.csprojResolveAssemblyReference.cache
+F:\Develop\AndroidApp\WebApp\obj\Debug\WebApp.dll
+F:\Develop\AndroidApp\WebApp\obj\Debug\WebApp.pdb

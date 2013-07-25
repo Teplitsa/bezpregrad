@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidApp", "AndroidApp\AndroidApp.csproj", "{AABD1F7A-4753-4E22-9872-B91E904F50D9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{23EF0490-2EAC-4D03-A63E-1BE6E6616992} = {23EF0490-2EAC-4D03-A63E-1BE6E6616992}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{7CD7F748-A45C-4B6F-A299-9D5377B39839}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{23EF0490-2EAC-4D03-A63E-1BE6E6616992}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTestApplication", "ConsoleTestApplication\ConsoleTestApplication.csproj", "{70CA5CBA-7B8D-451E-9335-8011D3439E18}"
+	ProjectSection(ProjectDependencies) = postProject
+		{23EF0490-2EAC-4D03-A63E-1BE6E6616992} = {23EF0490-2EAC-4D03-A63E-1BE6E6616992}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://webaspect.visualstudio.com/defaultcollection
+		SccProjectUniqueName0 = AndroidApp\\AndroidApp.csproj
+		SccProjectName0 = AndroidApp
+		SccLocalPath0 = AndroidApp
+		SccProjectUniqueName1 = ConsoleTestApplication\\ConsoleTestApplication.csproj
+		SccProjectName1 = ConsoleTestApplication
+		SccLocalPath1 = ConsoleTestApplication
+		SccProjectUniqueName2 = Common\\Common.csproj
+		SccProjectName2 = Common
+		SccLocalPath2 = Common
+		SccLocalPath3 = .
+		SccProjectUniqueName4 = WebApp\\WebApp.csproj
+		SccProjectName4 = WebApp
+		SccLocalPath4 = WebApp
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AABD1F7A-4753-4E22-9872-B91E904F50D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AABD1F7A-4753-4E22-9872-B91E904F50D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AABD1F7A-4753-4E22-9872-B91E904F50D9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AABD1F7A-4753-4E22-9872-B91E904F50D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AABD1F7A-4753-4E22-9872-B91E904F50D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AABD1F7A-4753-4E22-9872-B91E904F50D9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7CD7F748-A45C-4B6F-A299-9D5377B39839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CD7F748-A45C-4B6F-A299-9D5377B39839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CD7F748-A45C-4B6F-A299-9D5377B39839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CD7F748-A45C-4B6F-A299-9D5377B39839}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23EF0490-2EAC-4D03-A63E-1BE6E6616992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23EF0490-2EAC-4D03-A63E-1BE6E6616992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23EF0490-2EAC-4D03-A63E-1BE6E6616992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23EF0490-2EAC-4D03-A63E-1BE6E6616992}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70CA5CBA-7B8D-451E-9335-8011D3439E18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70CA5CBA-7B8D-451E-9335-8011D3439E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70CA5CBA-7B8D-451E-9335-8011D3439E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70CA5CBA-7B8D-451E-9335-8011D3439E18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = AndroidApp\AndroidApp.csproj
+	EndGlobalSection
+EndGlobal

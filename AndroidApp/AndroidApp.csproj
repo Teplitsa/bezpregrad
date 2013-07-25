@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>12.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AABD1F7A-4753-4E22-9872-B91E904F50D9}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>AndroidApp</RootNamespace>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AssemblyName>AndroidApp</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <AndroidSupportedAbis>armeabi%3barmeabi-v7a</AndroidSupportedAbis>
+    <MandroidI18n />
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+    <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AndroidLinkSkip />
+    <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AndroidStoreUncompressedFileExtensions />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Common\AuthData.cs">
+      <Link>Common\AuthData.cs</Link>
+    </Compile>
+    <Compile Include="..\Common\Dto\AbstractDto.cs">
+      <Link>Common\AbstractDto.cs</Link>
+    </Compile>
+    <Compile Include="..\Common\Dto\AuthDto.cs">
+      <Link>Common\AuthDto.cs</Link>
+    </Compile>
+    <Compile Include="..\Common\Dto\EditPointDto.cs">
+      <Link>Common\EditPointDto.cs</Link>
+    </Compile>
+    <Compile Include="..\Common\Dto\GlobalContants.cs">
+      <Link>Common\GlobalContants.cs</Link>
+    </Compile>
+    <Compile Include="..\Common\Dto\IdDto.cs">
+      <Link>Common\IdDto.cs</Link>
+    </Compile>
+    <Compile Include="..\Common\Dto\LoginRequestDto.cs">
+      <Link>Common\LoginRequestDto.cs</Link>
+    </Compile>
+    <Compile Include="..\Common\Dto\LoginResponseDto.cs">
+      <Link>Common\LoginResponseDto.cs</Link>
+    </Compile>
+    <Compile Include="..\Common\Dto\PointDto.cs">
+      <Link>Common\PointDto.cs</Link>
+    </Compile>
+    <Compile Include="..\Common\Dto\PointEntry\PointDataDto.cs">
+      <Link>Common\PointDataDto.cs</Link>
+    </Compile>
+    <Compile Include="..\Common\Dto\PointEntry\PointPart2Invalid.cs">
+      <Link>Common\PointPart2Invalid.cs</Link>
+    </Compile>
+    <Compile Include="..\Common\Dto\PointEntry\PointPart3Entry.cs">
+      <Link>Common\PointPart3Entry.cs</Link>
+    </Compile>
+    <Compile Include="..\Common\Dto\PointEntry\PointPart4Lobby.cs">
+      <Link>Common\PointPart4Lobby.cs</Link>
+    </Compile>
+    <Compile Include="..\Common\Dto\PointEntry\PointPart5Info.cs">
+      <Link>Common\PointPart5Info.cs</Link>
+    </Compile>
+    <Compile Include="..\Common\Dto\PointEntry\PointPart6Hygiene.cs">
+      <Link>Common\PointPart6Hygiene.cs</Link>
+    </Compile>
+    <Compile Include="..\Common\Dto\PointEntry\PointPart7Summary.cs">
+      <Link>Common\PointPart7Summary.cs</Link>
+    </Compile>
+    <Compile Include="..\Common\Dto\PointPhotoDto.cs">
+      <Link>Common\PointPhotoDto.cs</Link>
+    </Compile>
+    <Compile Include="..\Common\Dto\PointsSetDto.cs">
+      <Link>Common\PointsSetDto.cs</Link>
+    </Compile>
+    <Compile Include="..\Common\Dto\StringResultDto.cs">
+      <Link>Common\StringResultDto.cs</Link>
+    </Compile>
+    <Compile Include="..\Common\Services\CommonHelper.cs">
+      <Link>Common\CommonHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\Common\Services\LoginService.cs">
+      <Link>Common\LoginService.cs</Link>
+    </Compile>
+    <Compile Include="..\Common\Services\PhotoSaverHelper.cs">
+      <Link>Common\PhotoSaverHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\Common\Services\PointService.cs">
+      <Link>Common\PointService.cs</Link>
+    </Compile>
+    <Compile Include="BoolSpinnerAdapter.cs" />
+    <Compile Include="Categories.cs" />
+    <Compile Include="MessageBox.cs" />
+    <Compile Include="Newtonsoft\Base64Encoder.cs" />
+    <Compile Include="Newtonsoft\ConvertUtils.cs" />
+    <Compile Include="Newtonsoft\DateParseHandling.cs" />
+    <Compile Include="Newtonsoft\DateTimeParser.cs" />
+    <Compile Include="Newtonsoft\DateTimeUtils.cs" />
+    <Compile Include="Newtonsoft\DateTimeZoneHandling.cs" />
+    <Compile Include="Newtonsoft\EnumUtils.cs" />
+    <Compile Include="Newtonsoft\EnumValue.cs" />
+    <Compile Include="Newtonsoft\EnumValues.cs" />
+    <Compile Include="Newtonsoft\Extensions.cs" />
+    <Compile Include="Newtonsoft\FloatFormatHandling.cs" />
+    <Compile Include="Newtonsoft\FloatParseHandling.cs" />
+    <Compile Include="Newtonsoft\Formatting.cs" />
+    <Compile Include="Newtonsoft\IJEnumerable.cs" />
+    <Compile Include="Newtonsoft\IJsonLineInfo.cs" />
+    <Compile Include="Newtonsoft\JArray.cs" />
+    <Compile Include="Newtonsoft\JavaScriptUtils.cs" />
+    <Compile Include="Newtonsoft\JConstructor.cs" />
+    <Compile Include="Newtonsoft\JContainer.cs" />
+    <Compile Include="Newtonsoft\JEnumerable.cs" />
+    <Compile Include="Newtonsoft\JObject.cs" />
+    <Compile Include="Newtonsoft\JPath.cs" />
+    <Compile Include="Newtonsoft\JProperty.cs" />
+    <Compile Include="Newtonsoft\JPropertyDescriptor.cs" />
+    <Compile Include="Newtonsoft\JPropertyKeyedCollection.cs" />
+    <Compile Include="Newtonsoft\JRaw.cs" />
+    <Compile Include="Newtonsoft\JsonConvert.cs" />
+    <Compile Include="Newtonsoft\JsonException.cs" />
+    <Compile Include="Newtonsoft\JsonPosition.cs" />
+    <Compile Include="Newtonsoft\JsonReader.cs" />
+    <Compile Include="Newtonsoft\JsonReaderException.cs" />
+    <Compile Include="Newtonsoft\JsonTextReader.cs" />
+    <Compile Include="Newtonsoft\JsonTextWriter.cs" />
+    <Compile Include="Newtonsoft\JsonToken.cs" />
+    <Compile Include="Newtonsoft\JsonWriter.cs" />
+    <Compile Include="Newtonsoft\JsonWriterException.cs" />
+    <Compile Include="Newtonsoft\JToken.cs" />
+    <Compile Include="Newtonsoft\JTokenEqualityComparer.cs" />
+    <Compile Include="Newtonsoft\JTokenReader.cs" />
+    <Compile Include="Newtonsoft\JTokenType.cs" />
+    <Compile Include="Newtonsoft\JTokenWriter.cs" />
+    <Compile Include="Newtonsoft\JValue.cs" />
+    <Compile Include="Newtonsoft\MathUtils.cs" />
+    <Compile Include="Newtonsoft\MiscellaneousUtils.cs" />
+    <Compile Include="Newtonsoft\ReflectionUtils.cs" />
+    <Compile Include="Newtonsoft\StringBuffer.cs" />
+    <Compile Include="Newtonsoft\StringEscapeHandling.cs" />
+    <Compile Include="Newtonsoft\StringReference.cs" />
+    <Compile Include="Newtonsoft\StringUtils.cs" />
+    <Compile Include="Newtonsoft\ValidationUtils.cs" />
+    <Compile Include="Screens\Developer.cs" />
+    <Compile Include="Screens\EditItemMainActivity.cs" />
+    <Compile Include="Screens\Edit\BaseScreen.cs" />
+    <Compile Include="Screens\Edit\Screen1Main.cs" />
+    <Compile Include="Screens\Edit\Screen2Invalid.cs" />
+    <Compile Include="Screens\Edit\Screen3Entry.cs" />
+    <Compile Include="Screens\Edit\Screen4Lobby.cs" />
+    <Compile Include="Screens\Edit\Screen5Info.cs" />
+    <Compile Include="Screens\Edit\Screen6Hygiene.cs" />
+    <Compile Include="Screens\Edit\Screen7Summary.cs" />
+    <Compile Include="Screens\LoginActivity.cs" />
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Screens\MainActivity.cs" />
+    <Compile Include="Screens\HelpSubActivity.cs" />
+    <Compile Include="Screens\ItemsSubActivity.cs" />
+    <Compile Include="SmartEnumAdapter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+    <AndroidResource Include="Resources\layout\PointItemView.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Edit1Main.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Edit2Invalid.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Edit3Entry.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Edit4Lobby.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Edit5Info.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Edit6Hygiene.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Edit7Summary.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\ic_launcher.png" />
+    <AndroidResource Include="Resources\layout\Developer.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\LoginActivity.axml" />
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\layout\MainActivity.axml" />
+    <AndroidResource Include="Resources\layout\EditItemMainActivity.axml" />
+    <AndroidResource Include="Resources\layout\HelpSubActivity.axml" />
+    <AndroidResource Include="Resources\layout\ItemsSubActivity.axml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <Content Include="Properties\AndroidManifest.xml" />
+    <AndroidResource Include="Resources\drawable\wa_logo.jpg" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadeScrollbars="false"
+    android:scrollbars="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical">
+        <CheckBox
+            style="@style/CheckBox"
+            android:text="Пандус не требуется, вход вровень с улицей"
+            android:id="@+id/rampNotNeeded" />
+        <CheckBox
+            style="@style/CheckBox"
+            android:text="Пандуса нет, но он нужен"
+            android:id="@+id/rampNeeded" />
+        <CheckBox
+            style="@style/CheckBox"
+            android:text="Пандус соответствует требованиям (ширина не менее 1 м., уклон не более 8°, высота одного подъема не более 80 см, с двух сторон есть поручни)"
+            android:id="@+id/rampType" />
+        <CheckBox
+            style="@style/CheckBox"
+            android:text="Завершающие части поручня длиннее наклонной части на 30 см "
+            android:id="@+id/handle" />
+        <CheckBox
+            style="@style/CheckBox"
+            android:text="Входной проем доступен для инвалидов (отсутствуют турникеты, вращающиеся двери, иные препятствия)"
+            android:id="@+id/invalidEntry" />
+        <CheckBox
+            style="@style/CheckBox"
+            android:text="Над дверной площадкой оборудован навес, водоотвод "
+            android:id="@+id/awning" />
+        <CheckBox
+            style="@style/CheckBox"
+            android:text="Если двери прозрачные они оборудованы яркой контрастной маркировкой "
+            android:id="@+id/doorMarks" />
+        <CheckBox
+            style="@style/CheckBox"
+            android:text="Ширина дверных и открытых проемов не менее 90 см"
+            android:id="@+id/doorWidth" />
+        <CheckBox
+            style="@style/CheckBox"
+            android:text="Высота порога не более 0,025 м"
+            android:id="@+id/threshold" />
+    </LinearLayout>
+</ScrollView>

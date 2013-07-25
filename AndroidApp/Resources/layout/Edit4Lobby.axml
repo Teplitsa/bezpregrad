@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadeScrollbars="false"
+    android:scrollbars="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <CheckBox
+            style="@style/CheckBox"
+            android:text="Внутри помещение инвалиды могут свободно перемещаться между разными функциональными зонами "
+            android:id="@+id/invalidMove" />
+        <CheckBox
+            style="@style/CheckBox"
+            android:text="Ширина дверных и открытых проемов, выходов из помещений и из коридоров на лестничную клетку не менее 90 см "
+            android:id="@+id/doorWeight" />
+        <CheckBox
+            style="@style/CheckBox"
+            android:text="Покрытие пола в коридорах выполнено из нескользких материалов"
+            android:id="@+id/floor" />
+        <CheckBox
+            style="@style/CheckBox"
+            android:text="Пути движения не имеют порогов и иных препятствий выше 2 см "
+            android:id="@+id/noThresholds" />
+        <CheckBox
+            style="@style/CheckBox"
+            android:text="Внутри отсутствуют ступени между функциональными зонами "
+            android:id="@+id/noSteps" />
+        <CheckBox
+            style="@style/CheckBox"
+            android:text="При наличии, они оборудованы пандусом "
+            android:id="@+id/stepsHaveRamp" />
+        <CheckBox
+            style="@style/CheckBox"
+            android:text="Предупредительная рифленая и/или контрастно окрашенная поверхность перед дверными проемами и входами на лестницы"
+            android:id="@+id/riffleSurface" />
+        <CheckBox
+            style="@style/CheckBox"
+            android:text="В зоне обслуживания достаточно пространства для маневров на инвалидной коляске "
+            android:id="@+id/invalidManeuver" />
+        <CheckBox
+            style="@style/CheckBox"
+            android:text="Стойка приема (прилавка) располагается не выше 1,0 м от уровня пола"
+            android:id="@+id/entryPost" />
+        <CheckBox
+            style="@style/CheckBox"
+            android:text="В зоне обслуживания имеется звукоусиливающая аппаратура, световые табло"
+            android:id="@+id/SoundAmplifyingEquipment" />
+        <CheckBox
+            style="@style/CheckBox"
+            android:text="Наличие лифта"
+            android:id="@+id/lift" />
+        <CheckBox
+            style="@style/CheckBox"
+            android:text="Ширина кабины лифта не менее 1,1 м "
+            android:id="@+id/liftWight" />
+        <CheckBox
+            style="@style/CheckBox"
+            android:text="Глубина лифта не менее 1,4 м "
+            android:id="@+id/liftDepth" />
+        <CheckBox
+            style="@style/CheckBox"
+            android:text="Ширина двери лифта не менее 90 см"
+            android:id="@+id/liftDoorWeight" />
+        <CheckBox
+            style="@style/CheckBox"
+            android:text="Кнопки лифта помимо графических символов содержат шрифт Брайля"
+            android:id="@+id/liftBrail" />
+    </LinearLayout>
+</ScrollView>

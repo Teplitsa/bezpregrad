@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadeScrollbars="false"
+    android:scrollbars="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <CheckBox
+            style="@style/CheckBox"
+            android:text="На объекте размещена информация об услугах, назначении функциональных зон, путях эвакуации и т.п."
+            android:id="@+id/evacuation" />
+        <CheckBox
+            style="@style/CheckBox"
+            android:text="Информация о назначении помещений, залов расположена не выше 1,6 м от пола "
+            android:id="@+id/infoWeight" />
+        <CheckBox
+            style="@style/CheckBox"
+            android:text="Информация на табличках о помещениях дублирована рельефными знаками"
+            android:id="@+id/infoSigns" />
+        <CheckBox
+            style="@style/CheckBox"
+            android:text="Есть световые текстовые табло для вывода оперативной информации"
+            android:id="@+id/infoLuminance" />
+        <CheckBox
+            style="@style/CheckBox"
+            android:text="Звуковые информаторы"
+            android:id="@+id/infoVoice" />
+    </LinearLayout>
+</ScrollView>

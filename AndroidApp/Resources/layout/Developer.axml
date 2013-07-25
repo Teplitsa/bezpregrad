@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:layout_weight="1"
+        android:padding="5dp">
+        <TextView
+            android:text="Автор приложения: Сергей Пономарев\nКонтакт для связи: sp@grany-center.org\n\nПриложение создано при поддержке Теплицы Социальных Технологий\nРазработчик:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:linksClickable="true" />
+        <ImageView
+            android:src="@drawable/wa_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/webAspectButton" />
+    </LinearLayout>
+    <Button
+        android:text="Назад"
+        android:id="@+id/BackButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
